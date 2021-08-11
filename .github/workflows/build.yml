@@ -1,6 +1,8 @@
 name: build
 
-on: [push]
+on:
+  workflow_dispatch:
+  push:
 
 env:
   PACKER_VERSION: 1.6.6
